@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yummy-Delights</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>.card-img-top {
+    height: 400px; /* or any height you prefer */
+    object-fit: cover; /* This will crop and fill the image to maintain its aspect ratio */
+  }</style>
+<body>
+
+    <nav class="navbar navbar-expand-lg " style="background-color: orange">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.jpg" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top"> Yummy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Food Delivery</a></li>
+                            <li><a class="dropdown-item" href="#">Food Safety</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Feedback</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-light" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <a href="signup.html" class="btn btn-light">SignUp</a></div>
+                    <a href="/login.html" class="btn btn-light">Login</a></div>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/2.jpg" class="d-block w-100" height="700"  alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Fine Dining</h2>
+              <p>Enjoy some Fine Dining.</p>
+              <button type="button" class="btn btn-warning">Delicious</button>
+              <button type="button" class="btn btn-warning">Safe</button>
+              <button type="button" class="btn btn-warning">Convinient</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/5.jpg" class="d-block w-100"width="1400" height="700" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Like Homemade</h2>
+              <p>Enjoy hassle Free Food Delivery</p>
+              <button type="button" class="btn btn-success">Delicious</button>
+              <button type="button" class="btn btn-success">Safe</button>
+              <button type="button" class="btn btn-success">Convinient</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/car3.jpg" class="d-block w-100" alt="..."width="1400" height="700" >
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Indian Cuisine</h1>
+              <p>Spicy foods.</p>
+              <button type="button" class="btn btn-light">Delicious</button>
+              <button type="button" class="btn btn-light">Safe</button>
+              <button type="button" class="btn btn-light">Convinient</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid my-4">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100 text-left">
+              <img src="./images/c1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BURGERS</h5>
+                <p class="card-text">Delicious Cheesy Burger.</p>
+                <p>Price : 200.00 RS</p>
+                <a href="#" class="btn btn-warning">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-left">
+              <img src="./images/c13.jpg"class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">PIZZAS</h5>
+                <p class="card-text">Thin crust cheesy pizza.</p>
+                <p>Price : 300.00 RS</p>
+                <a href="#" class="btn btn-warning">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-left">
+              <img src="./images/c11.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pastas</h5>
+                <p class="card-text">Italian pastas.</p>
+                <p>Price : 250.00 RS</p>
+                <a href="#" class="btn btn-warning">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-left">
+              <img src="./images/c14.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Shakes</h5>
+                <p class="card-text">Thick shakes.</p>
+                <p>Price : 200.00 RS</p>
+                <a href="#" class="btn btn-warning">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-left">
+              <img src="./images/cake.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cakes</h5>
+                <p class="card-text">Delicious Cakes.</p>
+                <p>Price : 400.00 RS</p>
+                <a href="#" class="btn btn-warning">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-left">
+              <img src="./images/k.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Khichdi</h5>
+                <p class="card-text">Homemade Khichdi.</p>
+                <p>Price : 250.00 RS</p>
+                <a href="#" class="btn btn-warning">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-left">
+              <img src="./images/paneer.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tandoori Paneer</h5>
+                <p class="card-text">Serverd with mint chutney.</p>
+                <p>Price : 300.00 RS</p>
+                <a href="#" class="btn btn-warning">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-left">
+              <img src="./images/momo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Momos</h5>
+                <p class="card-text">Famous Nepali Momos.</p>
+                <p>Price : 150.00 RS</p>
+                <a href="#" class="btn btn-warning">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="container-fluid my-4">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">© 2024 Yummy, Inc</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="./images/logo.jpg" width="40" height="32">
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+        </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
